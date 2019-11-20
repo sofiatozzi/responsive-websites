@@ -97,6 +97,145 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*--BASE HEADER FOOTER STYLES--*/
+
+header, 
+footer {
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-flow:row wrap;
+}
+
+
+
+header .content-wrapper{
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  flex-flow:row wrap;
+
+
+}
+
+header nav {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-flow:row wrap;
+
+
+}
+
+header nav ul{
+  display:flex;
+  justify-content:space-around;
+  
+  
+  
+}
+
+footer .social {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+footer .social-icons{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+
+}
+
+/*---MOBILE STYLES---*/
+
+.hero-area{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+}
+
+
+
+aside{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+}
+
+
+.features{
+  display:flex;
+  justify-content:center;
+  flex-flow:row wrap;
+
+}
+
+.features .features-item-description{
+  display-flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
+}
+
+
+.reviews{
+  display:flex;
+  justify-content:center;
+  flex-flow:row wrap;
+
+}
+
+
+
+
+
+/*--ABOUT PAGE--*/
+
+.mission{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
+}
+.contact{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
+
+}
+
+/*--FAQ--*/
+
+.faq{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
+}
+
+.faq .content-wrapper{
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +402,5 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 
