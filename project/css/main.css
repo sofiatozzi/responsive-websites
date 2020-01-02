@@ -371,6 +371,12 @@ input[type=button] {
   text-align:center;
 }
 
+
+.features i {
+  font-size: 3.75em;
+        margin-bottom: 40px;
+}
+
 .reviews{
   display:flex;
   justify-content:center;
@@ -704,6 +710,9 @@ input[type=button] {
       justify-content: space-between;
       align-items: flex-start;
     }
+    .map figure {
+    padding-bottom: 45.5%;
+  }
 
 
     /*-----FAQ-----*/
@@ -785,6 +794,10 @@ header{
 
   .faq-content {
     flex-basis: 35%;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
 }
